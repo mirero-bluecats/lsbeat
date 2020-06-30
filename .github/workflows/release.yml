@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - id: get_version
-      uses: seungyongshim/get-version-action@v1.3
+      uses: mirerosystem/get-version-action@v1.3
     - name: Get Release
       id: get_release
       uses: bruceadams/get-release@v1.2.0   
