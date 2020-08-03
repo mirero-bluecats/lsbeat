@@ -3,13 +3,13 @@ services:
   golang:
     image: mirerosystemkr/golang:1.12.13
     volumes: 
-      - ./:/go/src/github.com/seungyongshim/lsbeat
+      - ./:/go/src/github.com/mirerosystem/lsbeat
       - /var/run/docker.sock:/var/run/docker.sock
     command:
       - bash
       - -c
       - |
-        cd /go/src/github.com/seungyongshim/lsbeat/
+        cd /go/src/github.com/mirerosystem/lsbeat/
         #make update 
         GOOS=windows GOARCH=386 go build -o lsbeat_x86_2.exe -ldflags "-X main.qualifier=syshim"
         

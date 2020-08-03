@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/seungyongshim/lsbeat/beater"
+	"github.com/mirerosystem/lsbeat/beater"
 
 	cmd "github.com/elastic/beats/libbeat/cmd"
 	"github.com/elastic/beats/libbeat/cmd/instance"

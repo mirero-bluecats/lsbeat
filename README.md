@@ -3,7 +3,7 @@
 Welcome to Lsbeat.
 
 Ensure that this folder is at the following location:
-`${GOPATH}/src/github.com/seungyongshim/lsbeat`
+`${GOPATH}/src/github.com/mirerosystem/lsbeat`
 
 ## Getting Started with Lsbeat
 
@@ -24,7 +24,7 @@ It will create a clean git history for each major step. Note that you can always
 To push Lsbeat in the git repository, run the following commands:
 
 ```
-git remote set-url origin https://github.com/seungyongshim/lsbeat
+git remote set-url origin https://github.com/mirerosystem/lsbeat
 git push origin master
 ```
 
@@ -97,8 +97,8 @@ make clean
 To clone Lsbeat from the git repository, run the following commands:
 
 ```
-mkdir -p ${GOPATH}/src/github.com/seungyongshim/lsbeat
-git clone https://github.com/seungyongshim/lsbeat ${GOPATH}/src/github.com/seungyongshim/lsbeat
+mkdir -p ${GOPATH}/src/github.com/mirerosystem/lsbeat
+git clone https://github.com/mirerosystem/lsbeat ${GOPATH}/src/github.com/mirerosystem/lsbeat
 ```
 
 

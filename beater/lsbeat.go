@@ -11,7 +11,7 @@ import (
 	"github.com/elastic/beats/libbeat/common"
 	"github.com/elastic/beats/libbeat/logp"
 
-	"github.com/seungyongshim/lsbeat/config"
+	"github.com/mirerosystem/lsbeat/config"
 )
 
 // Lsbeat configuration.

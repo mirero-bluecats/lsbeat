@@ -5,9 +5,9 @@ import (
 
 	"github.com/elastic/beats/libbeat/version"
 
-	"github.com/seungyongshim/lsbeat/cmd"
+	"github.com/mirerosystem/lsbeat/cmd"
 
-	_ "github.com/seungyongshim/lsbeat/include"
+	_ "github.com/mirerosystem/lsbeat/include"
 )
 
 var qualifier string

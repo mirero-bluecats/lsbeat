@@ -6,7 +6,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/seungyongshim/lsbeat/cmd"
+	"github.com/mirerosystem/lsbeat/cmd"
 )
 
 var systemTest *bool

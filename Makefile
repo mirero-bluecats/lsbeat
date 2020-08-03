@@ -1,5 +1,5 @@
 BEAT_NAME=lsbeat
-BEAT_PATH=github.com/seungyongshim/lsbeat
+BEAT_PATH=github.com/mirerosystem/lsbeat
 BEAT_GOPATH=$(firstword $(subst :, ,${GOPATH}))
 SYSTEM_TESTS=false
 TEST_ENVIRONMENT=false
